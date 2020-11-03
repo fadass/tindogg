@@ -1,0 +1,156 @@
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+.body{
+    font-style: 'Montserrrat-black';  
+}
+.h1,h2,h3,h4,h5,h6{font-family:'Montserrrat-bold';
+}
+.heading1{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+    margin-bottom: 30px;   
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#h33{
+    font-weight: bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.container-fluids{
+    padding: 3% 15%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+/* navigation bar  */
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-left: 18px;
+}
+.nav-item{
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'Montserrrat-light';
+}
+/* buttons */
+.download-button{
+    margin:5%,10px,5%,0;
+    margin-bottom: 10px;
+}
+.download-buttons{
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+/* imagee */
+.imagee{
+    position: absolute;
+    right: 30%;
+    width: 60%;
+    transform: rotate(25deg) 
+}
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}   
+.feature-title{
+    font-size: 1.5rem;
+
+}
+.iconn{
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.fa-4x{
+    color: #ef8172;
+    padding-bottom: 5%;
+}
+.fa-4x:hover{
+    color: #ff4c68;
+}
+/* .testimionial */
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: white;
+    margin-top: auto;   
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.test-image{
+    width: 10%;
+    border-radius: 100%;
+    padding: 20px;
+}
+.price-text{
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;   
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.row{
+    padding: 3%;
+}
+@media(max-width:1028px){
+    #title{
+        text-align: center;
+    }
+    .imagee{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#cta{
+    color: white;
+    text-align: center;
+    color: 'montserrat black';
+    background-color: #ff4c68;
+    margin-bottom: 30px;
+    padding: 7% 15%;
+       
+}
+
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    margin-left: 10px;
+    line-height: 2rem;
+}
+#lass{
+    text-align: center;
+}
